@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+body {
+  background-color: #f2f3f1;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  color: #5D737E;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1rem;
+  color: #64B6AC;
+  font-weight: bolder;
+}
+
+p {
+  line-height: 1.2;
+  font-size: 0.8rem;
+}
+
+a:hover {
+  color: #000;
+}
+
+img {
+  border-radius: 50%;
+  width: 20%;
+  height: auto;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 20px;
+  margin: 15px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.btn-design {
+  background-color: #551a8b;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-family: 'Nunito', sans-serif;
+  color: #FCFFFD;
+  font-weight: bolder;
+}
+
+.btn-design:hover {
+  background-color: #FCFFFD; 
+  color: #551a8b;
+  border: 1px solid;
+  border-color: #551a8b;
+  font-weight: bolder;
+}
+
+.text-center {
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+}
+
+ul > li {
+  display: inline-block;
+  margin: 0px 20px;
+  font-size: 1.85rem;
+}
